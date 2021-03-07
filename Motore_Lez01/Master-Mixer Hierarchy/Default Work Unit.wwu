@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9F714A9E-5757-4D34-9A98-940914D6AA89}" SchemaVersion="94">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{9F714A9E-5757-4D34-9A98-940914D6AA89}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{0C9909E8-536D-41FB-859C-CF799F710A1B}" WorkUnitID="{C2A94242-CD71-454F-AA56-910FB6F17A31}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music" ID="{9FF1766B-E4DD-4974-93BE-3C2201E73225}">
+							<ReferenceList/>
+						</Bus>
+						<Bus Name="Limiter" ID="{0037F6A3-2726-442F-9285-654446B2447D}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Peak Limiter (Custom)" ID="{95E23590-8F07-4538-A490-288F4FD37765}" ShortID="949879289" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3"/>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+				<Bus Name="Motion Factory Bus" ID="{2AF9B9C6-6EF1-46E9-B5F2-E30C9E602C74}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="Default_Motion_Device" ID="{85E98810-B2B5-4EE0-BBEE-7C9DC31A940B}" WorkUnitID="{C2A94242-CD71-454F-AA56-910FB6F17A31}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

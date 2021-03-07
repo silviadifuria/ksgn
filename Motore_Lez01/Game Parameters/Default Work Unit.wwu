@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A19E315F-37EA-4E0B-A1FF-F5BD67F6BB6C}" SchemaVersion="94">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{A19E315F-37EA-4E0B-A1FF-F5BD67F6BB6C}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="GIRI" ID="{37932E56-B890-48B6-BF6C-E8A1BB49107B}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="3000"/>
+						<Property Name="Max" Type="Real64" Value="7000"/>
+						<Property Name="Min" Type="Real64" Value="3000"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="92"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="72"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

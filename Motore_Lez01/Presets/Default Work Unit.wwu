@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F2EF605A-6FBB-4004-AA60-8B9EE5BE28FB}" SchemaVersion="94">
+	<Presets>
+		<WorkUnit Name="Default Work Unit" ID="{F2EF605A-6FBB-4004-AA60-8B9EE5BE28FB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Limiter" ID="{BBB0FBB0-4C09-475F-A7FE-8E5E63F1BB5D}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{0C9909E8-536D-41FB-859C-CF799F710A1B}" WorkUnitID="{C2A94242-CD71-454F-AA56-910FB6F17A31}"/>
+						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise Peak Limiter (Custom)" ID="{195E2885-BB27-4C4B-A7E3-97CCDC17B13A}" ShortID="1031230399" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3"/>
+							</Custom>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Presets>
+</WwiseDocument>
